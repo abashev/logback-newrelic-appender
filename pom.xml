@@ -6,7 +6,7 @@
 
     <groupId>com.github.abashev.logback-newrelic-appender</groupId>
     <artifactId>logback-newrelic-appender</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
         <dependency>
@@ -27,6 +27,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-abashev-logback-newrelic-appender-logback-newrelic-appender</id>
+            <name>abashev-logback-newrelic-appender-logback-newrelic-appender</name>
+            <url>https://api.bintray.com/maven/abashev/logback-newrelic-appender/logback-newrelic-appender</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
