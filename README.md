@@ -1,6 +1,8 @@
 logback-newrelic-appender
 =========================
 
+[![Build Status](https://travis-ci.org/abashev/logback-newrelic-appender.svg?branch=master)](https://travis-ci.org/abashev/logback-newrelic-appender)
+
 Logback appender for sending error messages directly to NewRelic monitoring. So you don't need to add NewRelic.noticeError() everywhere but just standard log.error() from slf4j will be enough.
 
 
